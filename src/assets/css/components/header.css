@@ -1,3 +1,6 @@
+.header__container {
+}
+
 .header__logo {
   font-size: 18px;
   font-style: normal;
@@ -8,4 +11,16 @@
 }
 .header__logo-accent {
   font-style: italic;
+}
+
+.header__nav {
+}
+
+.header__menu-list {
+}
+
+.header__menu-item {
+}
+
+.header__menu-link {
 }

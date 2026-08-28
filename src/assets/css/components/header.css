@@ -1,1 +1,11 @@
- 
+.header__logo {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+.header__logo-accent {
+  font-style: italic;
+}

@@ -34,6 +34,13 @@ button {
   background: none;
   font: inherit;
 }
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
 
 img {
   display: block;

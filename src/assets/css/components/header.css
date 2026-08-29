@@ -13,14 +13,9 @@
   font-style: italic;
 }
 
-.header__nav {
-}
-
-.header__menu-list {
-}
-
-.header__menu-item {
-}
-
 .header__menu-link {
+  text-transform: uppercase;
+}
+.header__menu-link:hover {
+  color: blue;
 }

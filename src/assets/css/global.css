@@ -1,19 +1,12 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  line-height: 1.28;
+  line-height: 1.2857;
   color: #111;
   background-color: #fafafa;
   letter-spacing: -0.02 em;
 }
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 34px;
-  letter-spacing: -0.84px;
-}
+
 h2 {
   font-size: 24px;
   font-style: normal;

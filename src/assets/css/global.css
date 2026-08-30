@@ -1,7 +1,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  line-height: 1.28;
   color: #111;
+  background-color: #fafafa;
+  letter-spacing: -0.02 em;
 }
 h1 {
   font-family: 'Montserrat', sans-serif;

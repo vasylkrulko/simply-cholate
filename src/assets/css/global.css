@@ -1,14 +1,14 @@
-body {
+/* body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-}
+} */
 
-h1 {
+/* h1 {
   font-family: 'Betania-patmos', sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 34px; /* 121.429% */
+  line-height: 34px;
   letter-spacing: -0.84px;
 }
 h2 {
@@ -18,4 +18,8 @@ h2 {
   line-height: 28px;
   letter-spacing: -0.72px;
   text-transform: uppercase;
+} */
+
+main aside {
+  color: red;
 }

@@ -1,8 +1,10 @@
 .section {
-  padding: 120px 0;
+  padding: 60px 0;
 }
 .container {
-  padding: 0 15px;
+  max-width: 1136px;
+  padding: 0 32px;
+  margin: 0 auto;
 }
 
 /* Social Header */

@@ -1,5 +1,31 @@
 <section>
   <div class="container hero">
+    <picture class="hero-bg">
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ./assets/img/hero-desktop-1136x600.webp     1x,
+          ./assets/img/hero-desktop-2272x1200@2x.webp 2x
+        "
+      />
+
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./assets/img/hero-tablet-704x820.webp      1x,
+          ./assets/img/hero-tablet-1408x1640@2x.webp 2x
+        "
+      />
+
+      <img
+        src="./assets/img/hero-mobile-335x626.webp"
+        srcset="
+          ./assets/img/hero-mobile-335x626.webp     1x,
+          ./assets/img/hero-mobile-670x1252@2x.webp 2x
+        "
+        alt=""
+      />
+    </picture>
     <h1 class="hero-title">
       Treat yourself or a loved one to our finest ingredients for a moment of
       pure delight!

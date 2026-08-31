@@ -1,1 +1,28 @@
- 
+.benefits {
+  margin-top: 20px;
+}
+.benefits-wrapper {
+  padding: 50px 0;
+  background-color: #1e1823;
+}
+
+.benefits-title {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-icon {
+  fill: #fd9222;
+}
+.benefits-subtitle {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.33;
+}
+.benefits-description {
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: -0.28px;
+}

@@ -1,0 +1,33 @@
+.process-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 50px;
+}
+.process-img-wrapper {
+  object-fit: cover;
+  overflow: hidden;
+}
+.process-img {
+  flex-shrink: 0;
+  width: 600px;
+  border-radius: 16px;
+}
+.process-content {
+  width: 516px;
+  padding: 32px;
+  background: #fff;
+  border-radius: 16px;
+}
+.process-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  max-width: 350px;
+}
+.process-list {
+  margin-top: 28px;
+}
+.process-item {
+  margin-top: 24px;
+}

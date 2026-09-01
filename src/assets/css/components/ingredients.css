@@ -1,9 +1,3 @@
-.ingredients-title {
-  margin: 0 auto;
-  text-align: center;
-  max-width: 412px;
-}
-
 .ingredients-list {
   display: flex;
   flex-wrap: wrap;

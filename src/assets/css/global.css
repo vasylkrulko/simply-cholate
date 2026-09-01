@@ -6,12 +6,3 @@ body {
   background-color: #fafafa;
   letter-spacing: -0.02 em;
 }
-
-h2 {
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 28px;
-  letter-spacing: -0.72px;
-  text-transform: uppercase;
-}

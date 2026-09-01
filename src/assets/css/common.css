@@ -20,6 +20,11 @@
   text-transform: uppercase;
 }
 
+/* Accent h2 */
+.title-accent {
+  color: #fd9222;
+}
+
 /* Social Header */
 .social {
 }
@@ -28,11 +33,6 @@
 .social-link {
 }
 .social-icon {
-}
-
-/* Accent h2 */
-.title-accent {
-  color: #fd9222;
 }
 
 /* Button */

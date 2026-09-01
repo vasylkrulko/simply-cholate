@@ -52,7 +52,6 @@
   align-items: flex-start;
   width: calc((100% - 32px * 3) / 4);
   min-width: 260px;
-
   gap: 32px;
   border-radius: 15px;
 }

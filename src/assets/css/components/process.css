@@ -26,8 +26,8 @@
   max-width: 350px;
 }
 .process-list {
+  display:flex;
+  flex-direction: column;
   margin-top: 28px;
-}
-.process-item {
-  margin-top: 24px;
+  gap: 24px;
 }

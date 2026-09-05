@@ -1,1 +1,23 @@
- 
+.topsellers-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 50px;
+}
+.topsellers-item {
+  min-width: 368px;
+  border-radius: 16px;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+  width: calc((100% - 16px * 2) / 3);
+}
+.topsellers-img-wrapper {
+}
+.topsellers-subtitle {
+  width: 100%;
+  text-align: center;
+  padding: 28px 28px;
+  font-weight: 600;
+  line-height: 1.33;
+  text-transform: uppercase;
+}

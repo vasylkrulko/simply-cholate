@@ -1,45 +1,55 @@
 <section>
-  <div class="container hero">
-    <picture class="hero-bg">
-      <source
-        media="(min-width: 1280px)"
-        srcset="
-          ./assets/img/hero-desktop-1136x600.webp     1x,
-          ./assets/img/hero-desktop-2272x1200@2x.webp 2x
-        "
-      />
+  <div class="container">
+    <div class="hero">
+      <picture class="hero-bg">
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./assets/img/hero-desktop-1136x600.webp     1x,
+            ./assets/img/hero-desktop-2272x1200@2x.webp 2x
+          "
+        />
 
-      <source
-        media="(min-width: 768px)"
-        srcset="
-          ./assets/img/hero-tablet-704x820.webp      1x,
-          ./assets/img/hero-tablet-1408x1640@2x.webp 2x
-        "
-      />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./assets/img/hero-tablet-704x820.webp      1x,
+            ./assets/img/hero-tablet-1408x1640@2x.webp 2x
+          "
+        />
 
-      <img
-        src="./assets/img/hero-mobile-335x626.webp"
-        srcset="
-          ./assets/img/hero-mobile-335x626.webp     1x,
-          ./assets/img/hero-mobile-670x1252@2x.webp 2x
-        "
-        alt=""
-      />
-    </picture>
-    <h1 class="hero-title">
-      Treat yourself or a loved one to our finest ingredients for a moment of
-      pure delight!
-    </h1>
-    <div>
-      <div class="hero-button">
-        <button class="btn hero-buy" type="button">Buy now</button>
-        <button class="btn hero-made" type="button">How it's made</button>
+        <img
+          src="./assets/img/hero-mobile-335x626.webp"
+          srcset="
+            ./assets/img/hero-mobile-335x626.webp     1x,
+            ./assets/img/hero-mobile-670x1252@2x.webp 2x
+          "
+          alt=""
+        />
+      </picture>
+
+      <div class="hero-content-wrapper">
+        <h1 class="hero-title">
+          Treat yourself or a loved one to our finest ingredients for a moment
+          of pure delight!
+        </h1>
+
+        <div class="hero-actions">
+          <div class="hero-buttons">
+            <button class="btn hero-buy" type="button">Buy now</button>
+
+            <button class="btn hero-made" type="button">How it's made</button>
+          </div>
+
+          <a class="hero-scroll" href="#topsellers">
+            scroll down
+
+            <svg class="hero-icon" width="22" height="22" aria-hidden="true">
+              <use href="./icons/icons.svg#scroll-down"></use>
+            </svg>
+          </a>
+        </div>
       </div>
-      <a class="hero-scroll" href="#topsellers"
-        >scroll down
-        <svg class="hero-icon" width="22" height="22">
-          <use href="./icons/icons.svg#scroll-down"></use></svg
-      ></a>
     </div>
   </div>
 </section>

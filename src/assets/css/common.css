@@ -11,19 +11,19 @@
   display: flex;
   align-items: center;
   gap: 24px;
+  padding: 0 5px;
 }
-.menu-item {
-}
+
 .menu-link {
   display: flex;
   padding: 11px 0;
+  font-size: 14px;
+  font-weight: 500;
   align-items: center;
 }
-.header-menu-link {
-}
-.menu-item {
-}
-.-menu-link {
+.menu-link:hover,
+.menu-link:active {
+  color: #fd9222;
 }
 
 /* Social Icons */

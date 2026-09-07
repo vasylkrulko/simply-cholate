@@ -1,7 +1,14 @@
 .header {
+  display: flex;
+  padding: 20px 32px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -9,21 +16,22 @@
   letter-spacing: -0.54px;
   text-transform: uppercase;
 }
+
+.header-logo-icon {
+  width: 24px;
+  height: 24px;
+  fill: #fd9222;
+}
 .header-logo-accent {
   font-style: italic;
 }
 
-.header-nav {
-}
-.header-menu-list {
-}
-.header-menu-item {
-}
-.header-menu-link {
-  font-weight: 500;
+.menu-link:hover,
+.menu-link:active {
+  color: #fd9222;
 }
 
-.header-menu-link:hover,
-.header-menu-link:focus {
-  color: #fd9222;
+.social-link:hover .social-icon,
+.social-link:active .social-icon {
+  fill: #fd9222;
 }

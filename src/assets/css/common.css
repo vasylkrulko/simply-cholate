@@ -7,6 +7,45 @@
   margin: 0 auto;
 }
 
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.menu-item {
+}
+.menu-link {
+  display: flex;
+  padding: 11px 0;
+  align-items: center;
+}
+.header-menu-link {
+}
+.menu-item {
+}
+.-menu-link {
+}
+
+/* Social Icons */
+.social {
+  display: flex;
+  gap: 14px;
+}
+.socials-item {
+}
+.social-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid rgb(150, 144, 144);
+}
+.social-icon {
+}
+
 /* Section-title h2 */
 .section-title {
   max-width: 412px;
@@ -23,16 +62,6 @@
 /* Accent h2 */
 .title-accent {
   color: #fd9222;
-}
-
-/* Social Icons */
-.social {
-}
-.socials-item {
-}
-.social-link {
-}
-.social-icon {
 }
 
 /* Button */

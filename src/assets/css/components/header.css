@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  padding: 20px 0;
+  padding: 20px 32px;
   justify-content: space-between;
   align-items: center;
 }
@@ -37,4 +37,9 @@
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #fd9222;
+}
+
+.social-link:hover,
+.social-link:active {
+  fill: #fd9222;
 }

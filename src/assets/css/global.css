@@ -6,3 +6,8 @@ body {
   background-color: #fafafa;
   letter-spacing: -0.02 em;
 }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 35px;
+}

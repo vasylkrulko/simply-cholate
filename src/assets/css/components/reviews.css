@@ -53,3 +53,8 @@
   line-height: 1.28;
   text-align: center;
 }
+
+.reviews-link:hover {
+  color: #fff;
+  background-color: #fd9222;
+}

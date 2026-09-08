@@ -11,8 +11,7 @@
   overflow: hidden;
   width: calc((100% - 16px * 2) / 3);
 }
-.topsellers-img-wrapper {
-}
+
 .topsellers-subtitle {
   width: 100%;
   text-align: center;
@@ -20,4 +19,44 @@
   font-weight: 600;
   line-height: 1.33;
   text-transform: uppercase;
+}
+
+/* Overlay */
+.topsellers-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.topsellers-img-wrapper img {
+  width: 100%;
+}
+
+.topsellers-overlay {
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  align-items: center;
+
+  padding: 40px;
+
+  background: linear-gradient(
+    161deg,
+    rgba(253, 253, 255, 0.1) 3.97%,
+    rgba(8, 2, 21, 0) 109.76%
+  );
+  backdrop-filter: blur(7.5px);
+  transform: translateY(100%);
+  transition: transform 250ms ease;
+}
+
+.topsellers-overlay-text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.28px;
+}
+
+.topsellers-item:hover .topsellers-overlay {
+  transform: translateY(0);
 }

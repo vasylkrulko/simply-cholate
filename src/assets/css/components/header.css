@@ -1,4 +1,12 @@
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #fff;
+}
+
+.header-wrapper {
   display: flex;
   padding: 20px 32px;
   justify-content: space-between;
@@ -26,9 +34,29 @@
   font-style: italic;
 }
 
-.menu-link:hover,
-.menu-link:active {
+.header-menu-link {
+  position: relative;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus-visible {
   color: #fd9222;
+}
+
+.header-menu-link.is-active {
+  color: #fd9222;
+}
+
+.header-menu-link.is-active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  height: 4px;
+  border-radius: 2px;
+  background-color: #fd9222;
 }
 
 .social-link:hover .social-icon,

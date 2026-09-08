@@ -20,6 +20,11 @@
   align-items: center;
 }
 
+.menu-link:hover,
+.menu-link:focus-visible {
+  color: #fd9222;
+}
+
 /* Social Icons */
 .social {
   display: flex;

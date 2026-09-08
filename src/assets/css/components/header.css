@@ -9,8 +9,10 @@
 .header-wrapper {
   display: flex;
   padding: 20px 32px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .header-logo {

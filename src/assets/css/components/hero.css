@@ -1,3 +1,6 @@
+.hero-wrapper {
+  margin: 0 auto;
+}
 .hero {
   position: relative;
   overflow: hidden;
@@ -6,6 +9,8 @@
   height: 600px;
   border-radius: 24px;
   background-color: #111;
+  min-height: 100vh;
+  min-width: 100vh;
 }
 
 /* Background */

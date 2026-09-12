@@ -66,12 +66,12 @@
 
 /* Button */
 .btn {
-  border-radius: 100px;
-  font-weight: 600;
   display: flex;
-  padding: 14px 40px;
   justify-content: center;
   align-items: center;
+  border-radius: 100px;
+  font-weight: 600;
+  padding: 14px 40px;
 }
 
 .visually-hidden {

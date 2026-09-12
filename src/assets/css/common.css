@@ -85,19 +85,3 @@
   white-space: nowrap;
   border: 0;
 }
-
-/* Ingredients */
-.ingredients-item {
-  display: flex;
-  flex-direction: column;
-  padding: 28px 24px;
-  align-items: flex-start;
-  flex-shrink: 0;
-  /* width: calc((100% - 32px * 3) / 4); */
-  flex: 0 0 calc((100% - 32px * 3) / 4);
-  min-width: 260px;
-  gap: 32px;
-  border-radius: 15px;
-}
-
-/* Top sellers */

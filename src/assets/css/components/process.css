@@ -34,7 +34,23 @@
 
 .process-item {
   margin-bottom: 24px;
+  position: relative;
+  padding-left: 20px;
 }
+
+.process-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 6px;
+
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid #7d7a7a;
+  background-color: #4c4c4c;
+}
+
 .process-item:last-child {
   margin-bottom: 0;
 }

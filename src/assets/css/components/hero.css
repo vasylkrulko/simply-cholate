@@ -1,42 +1,19 @@
 .hero {
-  position: relative;
+  background-image: url(/assets/img/hero-desktop-1136x600.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #111;
   overflow: hidden;
   width: 100%;
-  height: 600px;
-  background-color: #111;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 /* Background */
 
-.hero-bg {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-}
-
-.hero-bg img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-
-  background-color: rgba(17, 17, 17, 0.4);
-}
-
 /* Content */
 
 .hero-content-wrapper {
-  position: relative;
-  z-index: 2;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -105,6 +82,7 @@
   font-weight: 500;
   line-height: 1.2857;
   letter-spacing: -0.28px;
+  transition: 300ms ease-in-out;
 }
 
 .hero-scroll:hover,
@@ -120,6 +98,7 @@
   fill: #fd9222;
   background-color: #fff;
   border-radius: 50%;
+  transition: 300ms ease-in-out;
 }
 .hero-icon:hover,
 .hero-icon:focus {

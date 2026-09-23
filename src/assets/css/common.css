@@ -44,7 +44,12 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
+
   border: 1px solid rgb(150, 144, 144);
+}
+
+.social-icon {
+  transition: 300ms ease-in-out;
 }
 
 /* Section-title h2 */

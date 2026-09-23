@@ -8,17 +8,35 @@
 }
 
 .ingredients-item {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 32px;
   padding: 28px 24px;
   align-items: flex-start;
-  /* flex: 0 0 calc((100% - 96px) / 4); */
   width: calc((100% - 96px) / 4);
   min-width: 260px;
   border-radius: 15px;
 }
 
+/* .ingredients-btn:nth-child(1),
+.ingredients-btn:nth-child(5) {
+  color: #fff;
+}
+.ingredients-btn:nth-child(3),
+.ingredients-btn:nth-child(7) {
+  color: #fff;
+}
+
+.ingredients-btn:nth-child(2),
+.ingredients-btn:nth-child(4),
+.ingredients-btn:nth-child(6) {
+  color: #040202;
+  background-color: #040202;
+} */
+
+/* 
+background */
 .ingredients-item:nth-child(1),
 .ingredients-item:nth-child(5) {
   background-color: #fd9222;

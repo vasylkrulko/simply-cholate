@@ -9,9 +9,9 @@
 }
 
 .reviews-items {
+  width: calc((100% - 28px * 2) / 3);
+  min-width: 360px;
   position: relative;
-  width: 360px;
-  height: 200px;
   padding: 56px 24px 24px;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 16px;
@@ -42,14 +42,13 @@
 }
 
 .reviews-link {
-  display: block;
   margin: 0 auto;
+  width: fit-content;
   border: 1px solid #fd9222;
-  border-radius: 100px;
-  padding: 14px 40px;
-  width: 190px;
-  height: 46px;
-  font-weight: 600;
   line-height: 1.28;
-  text-align: center;
+}
+
+.reviews-link:hover {
+  color: #fff;
+  background-color: #fd9222;
 }

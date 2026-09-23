@@ -97,3 +97,8 @@
   color: #fff;
   background-color: #fd9222;
 }
+
+.footer-subscribe-btn:hover {
+  color: #fd9222;
+  background-color: #fcf1e0;
+}

@@ -9,8 +9,10 @@
 .header-wrapper {
   display: flex;
   padding: 20px 32px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .header-logo {
@@ -38,15 +40,6 @@
   position: relative;
 }
 
-.header-menu-link:hover,
-.header-menu-link:focus-visible {
-  color: #fd9222;
-}
-
-.header-menu-link.is-active {
-  color: #fd9222;
-}
-
 .header-menu-link.is-active::after {
   content: '';
   position: absolute;
@@ -57,6 +50,15 @@
   height: 4px;
   border-radius: 2px;
   background-color: #fd9222;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus-visible {
+  color: #fd9222;
+}
+
+.header-menu-link.is-active {
+  color: #fd9222;
 }
 
 .social-link:hover .social-icon,

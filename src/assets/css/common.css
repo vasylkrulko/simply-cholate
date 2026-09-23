@@ -70,6 +70,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 14px 40px;
+  border-radius: 100px;
   transition: 300ms ease-in-out;
 }
 

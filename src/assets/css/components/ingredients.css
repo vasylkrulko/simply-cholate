@@ -19,24 +19,7 @@
   border-radius: 15px;
 }
 
-/* .ingredients-btn:nth-child(1),
-.ingredients-btn:nth-child(5) {
-  color: #fff;
-}
-.ingredients-btn:nth-child(3),
-.ingredients-btn:nth-child(7) {
-  color: #fff;
-}
-
-.ingredients-btn:nth-child(2),
-.ingredients-btn:nth-child(4),
-.ingredients-btn:nth-child(6) {
-  color: #040202;
-  background-color: #040202;
-} */
-
-/* 
-background */
+/* background */
 .ingredients-item:nth-child(1),
 .ingredients-item:nth-child(5) {
   background-color: #fd9222;
@@ -54,6 +37,27 @@ background */
   background-color: #fff;
   border: 1px solid #fd9222;
   color: #111;
+}
+
+/* button in cart */
+
+.ingredients-item:nth-child(1) .ingredients-btn,
+.ingredients-item:nth-child(5) .ingredients-btn {
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+.ingredients-item:nth-child(2) .ingredients-btn,
+.ingredients-item:nth-child(4) .ingredients-btn,
+.ingredients-item:nth-child(6) .ingredients-btn {
+  border: solid 1px #fd9222;
+  color: #fd9222;
+}
+
+.ingredients-item:nth-child(3) .ingredients-btn,
+.ingredients-item:nth-child(7) .ingredients-btn {
+  border: solid 1px #f2f0ee;
+  color: #fff;
 }
 
 .ingredients-subtitle {
